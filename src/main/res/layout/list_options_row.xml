@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:background="@drawable/list_fragment_option_shape"
+    >
+
+    <!--
+        Container for the left side of the row
+    -->
+    <LinearLayout
+        android:id="@+id/list_option_row_thumbnail_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="2dp"
+        android:padding="2dp"
+    >
+
+        <!-- Insert row image here -->
+        <ImageView
+            android:id="@+id/list_option_row_thumbnail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/list_option_row_thumbnaill_desc"
+            />
+
+    </LinearLayout>
+
+    <!--
+        Right side of the row, insert informative elements here
+    -->
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/list_option_row_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@+id/list_option_row_thumbnail_container"
+        android:text="@string/list_transport_option_title"
+        android:textColor="@color/list_transport_option_text_color"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+    />
+</RelativeLayout>
