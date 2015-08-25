@@ -20,6 +20,9 @@ Usage
 -----
 ----------
 Glance at your phone and you will see near train/buss departments.
+Screenshot:
+![enter image description here](http://files.erikwelander.se/git/images/Fastest_Way_Home/Screenshot.png)
 
 ----------
+
 
